@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="docs/assets/birthday-reminder-flow.svg" alt="Flujo del recordatorio: añadir un cumpleaños, guardarlo en data.csv, comprobar la fecha y recibir una notificación de Windows." width="100%">
+  <img src="docs/assets/birthday-reminder-flow.svg" alt="Diagrama oscuro de estilo pixel art: añadir un cumpleaños, guardarlo en data.csv, comprobarlo aproximadamente cada seis horas y recibir una notificación de Windows." width="100%">
 </p>
 
 ## Qué hace

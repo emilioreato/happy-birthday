@@ -1,56 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 330" role="img" aria-labelledby="title desc">
-  <title id="title">Flujo de recordatorios de Happy Birthday</title>
-  <desc id="desc">Se guarda un cumpleaños, se comprueba la fecha periódicamente y Windows muestra una notificación el día correspondiente.</desc>
-  <defs>
-    <linearGradient id="header" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#102a43"/>
-      <stop offset="1" stop-color="#0f766e"/>
-    </linearGradient>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-      <path d="M0 0L10 5L0 10Z" fill="#94a3b8"/>
-    </marker>
-  </defs>
-  <rect width="1120" height="330" rx="26" fill="#f1f5f9"/>
-  <rect x="0" y="0" width="1120" height="94" rx="26" fill="url(#header)"/>
-  <path d="M0 68 Q0 94 26 94 H1094 Q1120 94 1120 68 V120 H0Z" fill="url(#header)"/>
-  <text x="48" y="47" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Un recordatorio sencillo, de principio a fin</text>
-  <text x="48" y="73" fill="#d8f3ef" font-family="Segoe UI, Arial, sans-serif" font-size="14">Happy Birthday para Windows</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 310" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Cómo funciona Happy Birthday</title>
+  <desc id="desc">Cuatro pasos: añadir un cumpleaños, guardarlo en data.csv, comprobarlo aproximadamente cada seis horas y recibir una notificación de Windows.</desc>
 
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <rect x="32" y="139" width="236" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
-    <rect x="58" y="159" width="42" height="42" rx="11" fill="#dbeafe"/>
-    <rect x="68" y="169" width="22" height="23" rx="3" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-    <path d="M68 176h22M74 166v7M84 166v7" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
-    <text x="58" y="227" fill="#0f172a" font-size="17" font-weight="700">1 · Añade una fecha</text>
-    <text x="58" y="252" fill="#475569" font-size="13">Nombre + día y mes</text>
-    <text x="58" y="272" fill="#64748b" font-size="12">Desde el menú de consola</text>
+  <rect width="1120" height="310" fill="#141518"/>
 
-    <path d="M278 213h28" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
-
-    <rect x="314" y="139" width="236" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
-    <rect x="340" y="159" width="42" height="42" rx="11" fill="#ccfbf1"/>
-    <path d="M351 170h20v21h-20zM355 175h12M355 180h12M355 185h8" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>
-    <text x="340" y="227" fill="#0f172a" font-size="17" font-weight="700">2 · Guarda el registro</text>
-    <text x="340" y="252" fill="#475569" font-size="13">Fechas en <tspan font-family="Consolas, monospace">data.csv</tspan></text>
-    <text x="340" y="272" fill="#64748b" font-size="12">El archivo conserva tus datos</text>
-
-    <path d="M560 213h28" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
-
-    <rect x="596" y="139" width="236" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
-    <rect x="622" y="159" width="42" height="42" rx="11" fill="#fef3c7"/>
-    <circle cx="643" cy="180" r="12" fill="none" stroke="#b45309" stroke-width="2.5"/>
-    <path d="M643 172v9l6 4" fill="none" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
-    <text x="622" y="227" fill="#0f172a" font-size="17" font-weight="700">3 · Revisa el día</text>
-    <text x="622" y="252" fill="#475569" font-size="13">Comprobación periódica</text>
-    <text x="622" y="272" fill="#64748b" font-size="12">Aproximadamente cada 6 horas</text>
-
-    <path d="M842 213h28" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
-
-    <rect x="878" y="139" width="210" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
-    <rect x="904" y="159" width="42" height="42" rx="11" fill="#fee2e2"/>
-    <path d="M915 172h20a3 3 0 0 1 3 3v13h-26v-13a3 3 0 0 1 3-3zM920 168h10" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="904" y="227" fill="#0f172a" font-size="17" font-weight="700">4 · Te avisa</text>
-    <text x="904" y="252" fill="#475569" font-size="13">Notificación de Windows</text>
-    <text x="904" y="272" fill="#64748b" font-size="12">Una vez por cumpleaños y día</text>
+  <!-- Compact pixel gift, echoing the project icon. -->
+  <g>
+    <rect x="40" y="34" width="12" height="8" fill="#0b9464"/>
+    <rect x="36" y="42" width="16" height="7" fill="#0b9464"/>
+    <rect x="62" y="34" width="12" height="8" fill="#0b9464"/>
+    <rect x="62" y="42" width="16" height="7" fill="#0b9464"/>
+    <rect x="52" y="40" width="10" height="9" fill="#ee3838"/>
+    <rect x="36" y="49" width="44" height="8" fill="#ee3838"/>
+    <rect x="52" y="49" width="10" height="8" fill="#f4eee7"/>
+    <rect x="40" y="57" width="36" height="24" fill="#f4eee7"/>
+    <rect x="40" y="57" width="8" height="24" fill="#ee3838"/>
+    <rect x="56" y="57" width="8" height="24" fill="#0b9464"/>
+    <rect x="68" y="57" width="8" height="24" fill="#ee3838"/>
   </g>
+  <text x="104" y="67" fill="#f4eee7" font-family="Consolas, 'Courier New', monospace" font-size="26" font-weight="700" letter-spacing="0.4">DE FECHA GUARDADA A RECORDATORIO</text>
+  <text x="104" y="96" fill="#aaa9a5" font-family="Consolas, 'Courier New', monospace" font-size="14">Happy Birthday · Recordatorios para Windows</text>
+  <rect x="40" y="126" width="1040" height="2" fill="#343538"/>
+  <rect x="40" y="126" width="72" height="2" fill="#0b9464"/>
+  <rect x="112" y="126" width="24" height="2" fill="#ee3838"/>
+
+  <!-- 01 · Add a birthday -->
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="40" y="161" fill="#0b9464" font-size="16" font-weight="700">01</text>
+    <g transform="translate(80 143)">
+      <rect x="0" y="6" width="44" height="38" fill="#f4eee7"/>
+      <rect x="0" y="6" width="44" height="9" fill="#ee3838"/>
+      <rect x="8" y="0" width="6" height="12" fill="#0b9464"/>
+      <rect x="30" y="0" width="6" height="12" fill="#0b9464"/>
+      <rect x="7" y="22" width="6" height="6" fill="#0b9464"/>
+      <rect x="19" y="22" width="6" height="6" fill="#141518"/>
+      <rect x="31" y="22" width="6" height="6" fill="#0b9464"/>
+      <rect x="7" y="32" width="6" height="6" fill="#141518"/>
+      <rect x="19" y="32" width="6" height="6" fill="#0b9464"/>
+    </g>
+    <text x="40" y="220" fill="#f4eee7" font-size="17" font-weight="700">AÑADE FECHA</text>
+    <text x="40" y="248" fill="#d0cfcb" font-size="14">Nombre · día y mes</text>
+    <text x="40" y="272" fill="#92928e" font-size="13">Desde el menú de consola</text>
+  </g>
+
+  <!-- Pixel arrow -->
+  <g fill="#686966">
+    <rect x="264" y="160" width="8" height="8"/>
+    <rect x="272" y="160" width="8" height="8"/>
+    <rect x="280" y="152" width="8" height="8"/>
+    <rect x="280" y="168" width="8" height="8"/>
+    <rect x="288" y="144" width="8" height="8"/>
+    <rect x="288" y="176" width="8" height="8"/>
+  </g>
+
+  <!-- 02 · Save locally -->
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="320" y="161" fill="#ee5550" font-size="16" font-weight="700">02</text>
+    <g transform="translate(360 143)">
+      <path d="M4 0h28l12 12v32H4z" fill="#f4eee7"/>
+      <path d="M32 0v12h12" fill="#d0cfcb"/>
+      <rect x="12" y="20" width="24" height="4" fill="#0b9464"/>
+      <rect x="12" y="28" width="24" height="4" fill="#ee3838"/>
+      <rect x="12" y="36" width="16" height="4" fill="#0b9464"/>
+    </g>
+    <text x="320" y="220" fill="#f4eee7" font-size="17" font-weight="700">GUARDA LOCAL</text>
+    <text x="320" y="248" fill="#d0cfcb" font-size="14">En <tspan fill="#f4eee7">data.csv</tspan></text>
+    <text x="320" y="272" fill="#92928e" font-size="13">El archivo conserva el registro</text>
+  </g>
+
+  <!-- Pixel arrow -->
+  <g fill="#686966">
+    <rect x="544" y="160" width="8" height="8"/>
+    <rect x="552" y="160" width="8" height="8"/>
+    <rect x="560" y="152" width="8" height="8"/>
+    <rect x="560" y="168" width="8" height="8"/>
+    <rect x="568" y="144" width="8" height="8"/>
+    <rect x="568" y="176" width="8" height="8"/>
+  </g>
+
+  <!-- 03 · Check periodically -->
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="600" y="161" fill="#0b9464" font-size="16" font-weight="700">03</text>
+    <g transform="translate(640 143)">
+      <rect x="8" y="0" width="28" height="6" fill="#f4eee7"/>
+      <rect x="2" y="6" width="40" height="6" fill="#f4eee7"/>
+      <rect x="0" y="12" width="44" height="20" fill="#f4eee7"/>
+      <rect x="2" y="32" width="40" height="6" fill="#f4eee7"/>
+      <rect x="8" y="38" width="28" height="6" fill="#f4eee7"/>
+      <rect x="20" y="14" width="4" height="12" fill="#141518"/>
+      <rect x="22" y="24" width="12" height="4" fill="#ee3838"/>
+      <rect x="18" y="12" width="8" height="4" fill="#0b9464"/>
+    </g>
+    <text x="600" y="220" fill="#f4eee7" font-size="17" font-weight="700">REVISA EL DÍA</text>
+    <text x="600" y="248" fill="#d0cfcb" font-size="14">Comprobación periódica</text>
+    <text x="600" y="272" fill="#92928e" font-size="13">Aproximadamente cada 6 horas</text>
+  </g>
+
+  <!-- Pixel arrow -->
+  <g fill="#686966">
+    <rect x="824" y="160" width="8" height="8"/>
+    <rect x="832" y="160" width="8" height="8"/>
+    <rect x="840" y="152" width="8" height="8"/>
+    <rect x="840" y="168" width="8" height="8"/>
+    <rect x="848" y="144" width="8" height="8"/>
+    <rect x="848" y="176" width="8" height="8"/>
+  </g>
+
+  <!-- 04 · Notify -->
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="880" y="161" fill="#ee5550" font-size="16" font-weight="700">04</text>
+    <g transform="translate(920 143)">
+      <rect x="0" y="4" width="44" height="36" fill="#f4eee7"/>
+      <rect x="0" y="4" width="44" height="8" fill="#ee3838"/>
+      <rect x="6" y="18" width="8" height="8" fill="#0b9464"/>
+      <rect x="18" y="18" width="20" height="4" fill="#141518"/>
+      <rect x="18" y="26" width="16" height="4" fill="#141518"/>
+      <rect x="34" y="34" width="10" height="10" fill="#0b9464"/>
+      <rect x="38" y="30" width="4" height="4" fill="#0b9464"/>
+    </g>
+    <text x="880" y="220" fill="#f4eee7" font-size="17" font-weight="700">TE AVISA</text>
+    <text x="880" y="248" fill="#d0cfcb" font-size="14">Notificación de Windows</text>
+    <text x="880" y="272" fill="#92928e" font-size="13">Una vez por cumpleaños y día</text>
+  </g>
+
 </svg>
