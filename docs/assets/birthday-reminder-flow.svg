@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 330" role="img" aria-labelledby="title desc">
+  <title id="title">Flujo de recordatorios de Happy Birthday</title>
+  <desc id="desc">Se guarda un cumpleaños, se comprueba la fecha periódicamente y Windows muestra una notificación el día correspondiente.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="330" rx="26" fill="#f1f5f9"/>
+  <rect x="0" y="0" width="1120" height="94" rx="26" fill="url(#header)"/>
+  <path d="M0 68 Q0 94 26 94 H1094 Q1120 94 1120 68 V120 H0Z" fill="url(#header)"/>
+  <text x="48" y="47" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Un recordatorio sencillo, de principio a fin</text>
+  <text x="48" y="73" fill="#d8f3ef" font-family="Segoe UI, Arial, sans-serif" font-size="14">Happy Birthday para Windows</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="32" y="139" width="236" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
+    <rect x="58" y="159" width="42" height="42" rx="11" fill="#dbeafe"/>
+    <rect x="68" y="169" width="22" height="23" rx="3" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+    <path d="M68 176h22M74 166v7M84 166v7" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="58" y="227" fill="#0f172a" font-size="17" font-weight="700">1 · Añade una fecha</text>
+    <text x="58" y="252" fill="#475569" font-size="13">Nombre + día y mes</text>
+    <text x="58" y="272" fill="#64748b" font-size="12">Desde el menú de consola</text>
+
+    <path d="M278 213h28" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="314" y="139" width="236" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
+    <rect x="340" y="159" width="42" height="42" rx="11" fill="#ccfbf1"/>
+    <path d="M351 170h20v21h-20zM355 175h12M355 180h12M355 185h8" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>
+    <text x="340" y="227" fill="#0f172a" font-size="17" font-weight="700">2 · Guarda el registro</text>
+    <text x="340" y="252" fill="#475569" font-size="13">Fechas en <tspan font-family="Consolas, monospace">data.csv</tspan></text>
+    <text x="340" y="272" fill="#64748b" font-size="12">El archivo conserva tus datos</text>
+
+    <path d="M560 213h28" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="596" y="139" width="236" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
+    <rect x="622" y="159" width="42" height="42" rx="11" fill="#fef3c7"/>
+    <circle cx="643" cy="180" r="12" fill="none" stroke="#b45309" stroke-width="2.5"/>
+    <path d="M643 172v9l6 4" fill="none" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="622" y="227" fill="#0f172a" font-size="17" font-weight="700">3 · Revisa el día</text>
+    <text x="622" y="252" fill="#475569" font-size="13">Comprobación periódica</text>
+    <text x="622" y="272" fill="#64748b" font-size="12">Aproximadamente cada 6 horas</text>
+
+    <path d="M842 213h28" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="878" y="139" width="210" height="148" rx="18" fill="#fff" stroke="#cbd5e1"/>
+    <rect x="904" y="159" width="42" height="42" rx="11" fill="#fee2e2"/>
+    <path d="M915 172h20a3 3 0 0 1 3 3v13h-26v-13a3 3 0 0 1 3-3zM920 168h10" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="904" y="227" fill="#0f172a" font-size="17" font-weight="700">4 · Te avisa</text>
+    <text x="904" y="252" fill="#475569" font-size="13">Notificación de Windows</text>
+    <text x="904" y="272" fill="#64748b" font-size="12">Una vez por cumpleaños y día</text>
+  </g>
+</svg>
