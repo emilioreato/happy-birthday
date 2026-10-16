@@ -4,7 +4,9 @@
   <p>Una agenda de cumpleaños para Windows que convierte una fecha guardada en un recordatorio cuando llega el día.</p>
 </div>
 
-![Diagrama del flujo: añadir un cumpleaños, guardarlo en data.csv, comprobar la fecha y recibir una notificación de Windows.](docs/assets/birthday-reminder-flow.svg)
+<p align="center">
+  <img src="docs/assets/birthday-reminder-flow.svg" alt="Flujo del recordatorio: añadir un cumpleaños, guardarlo en data.csv, comprobar la fecha y recibir una notificación de Windows." width="100%">
+</p>
 
 ## Qué hace
 
@@ -43,7 +45,7 @@ El menú acepta estos comandos:
 
 Al iniciar, la aplicación intenta añadirse al inicio de sesión de Windows mediante la clave `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`. `ok` deja el proceso funcionando en segundo plano. Ten en cuenta este comportamiento antes de ejecutar el script o el `.exe`.
 
-`data.csv` contiene los nombres y fechas que registres; `already_notified.txt` evita repetir una notificación el mismo día. Haz una copia de seguridad de tus datos y no publiques información personal.
+`data.csv` contiene los nombres y fechas que registres; `already_notified.txt` evita repetir una notificación el mismo día; `intervales_register.txt` guarda las horas de comprobación en segundo plano. El repositorio ya contiene estos archivos; además, `resultado final/_internal/` incluye copias de `data.csv` y `already_notified.txt`. Revísalos antes de distribuir o volver a publicar el proyecto y no incluyas información personal.
 
 ---
 
